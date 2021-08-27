@@ -29,7 +29,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'What is description of your project?',
+        message: 'What is description the of your project?',
         default: "No Description Given"
     },
     {
