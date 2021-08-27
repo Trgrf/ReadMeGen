@@ -1,14 +1,33 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license !== "None") {
-    return `www.github.com/license/${license}/`
+  if (license == "None") {
+    return "";
+  }
+  else if (license === "MIT") {
+    return `![badge](https://img.shields.io/badge/license-MIT-blue)`
+  }
+  else if (license === "Apache 2.0") {
+    return `![badge](https://img.shields.io/badge/license-Apache%202.0-blue)`
+  }
+  else if (license === "GPL") {
+    return `![badge](https://img.shields.io/badge/license-GPL-blue)`
   }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license === 'MIT') {
+    return `[MIT](https://opensource.org/licenses/MIT)`
+  }
+  if (license === 'Apache 2.0') {
+    return `[Apache 2.0](https://opensource.org/licenses/Apache-2.0)`
+  }
+  if (license === 'GPL') {
+    return `[GPL](https://opensource.org/licenses/gpl-license)`
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -18,7 +37,7 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 ## Description
-${data.description}.
+${data.description}
 
 ## Table of Contents (Optional)
 - [Installation](#installation)
@@ -26,18 +45,19 @@ ${data.description}.
 - [Credits](#credits)
 - [License](#license)
 ## Installation
-${data.install}.
+${data.install}
 ## Usage
-${data.usage}.
+${data.usage}
 ## License
-${data.license}.
+${renderLicenseBadge(data.license)}
+${renderLicenseLink(data.license)}
 ## Credits
-${data.credits}.
+${data.credits}
 ## Tests
-${data.test}.
+${data.test}
 ## Questions
 If you are interested in contacting me my GitHub profile is ${data.github}. <br />
-My email is ${data.email}.
+My email is [${data.email}](mailto:${data.email}).
 `;
 }
 
