@@ -56,7 +56,7 @@ ${data.credits}
 ## Tests
 ${data.test}
 ## Questions
-If you are interested in contacting me my GitHub profile is [${data.github}](https://github.com/Trgrf). <br />
+If you are interested in contacting me my GitHub profile is [${data.github}](https://github.com/${data.github}). <br />
 My email is [${data.email}](mailto:${data.email}).
 `;
 }

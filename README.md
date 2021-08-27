@@ -8,12 +8,12 @@ This project allows you to instantly create a README file just by answering a fe
 - [Credits](#credits)
 - [License](#license)
 ## Installation
-npm init -y followed by npm i inquirer.
+npm init - y, press enter and then type in npm i inquirer.
 ## Usage
-This application allows for the fast and easy  creation and modification of  README files. 
+This app allows for fast and easy creatation and modification of README files.
 ## License
-![badge](https://img.shields.io/badge/license-Apache%202.0-blue)
-[Apache 2.0](https://opensource.org/licenses/Apache-2.0)
+![badge](https://img.shields.io/badge/license-MIT-blue)
+[MIT](https://opensource.org/licenses/MIT)
 ## Credits
 No Credits Given
 ## Tests
