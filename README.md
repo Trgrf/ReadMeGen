@@ -1,6 +1,6 @@
 # README Generator
 ## Description
-This project allows you to instantly create a README file just by answering a few propmts.
+This project allows for you to create README's fast and easily.
 
 ## Table of Contents (Optional)
 - [Installation](#installation)
@@ -8,12 +8,12 @@ This project allows you to instantly create a README file just by answering a fe
 - [Credits](#credits)
 - [License](#license)
 ## Installation
-npm init - y, press enter and then type in npm i inquirer.
+First you start with the command npm init -y and then the command npm i inquirer.
 ## Usage
-This app allows for fast and easy creatation and modification of README files.
+Used to create and easily mantain README pages.
 ## License
-![badge](https://img.shields.io/badge/license-MIT-blue)
-[MIT](https://opensource.org/licenses/MIT)
+![badge](https://img.shields.io/badge/license-GPL-blue)
+[GPL](https://opensource.org/licenses/gpl-license)
 ## Credits
 No Credits Given
 ## Tests
