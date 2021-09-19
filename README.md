@@ -1,6 +1,6 @@
-# README Generator
+# KeepItMoving
 ## Description
-This project allows for you to create README's fast and easily.
+This is an exercise tracker that helps you keep up with your exercise routines in a simple and easy way. With our application it allows you to add exercises and keep track of the weight you have been lifting.
 
 ## Table of Contents (Optional)
 - [Installation](#installation)
@@ -8,14 +8,14 @@ This project allows for you to create README's fast and easily.
 - [Credits](#credits)
 - [License](#license)
 ## Installation
-First you start with the command npm init -y and then the command npm i inquirer.
+The way to use our application on your home pc is the commands npm init -y, npm i and then npm start.
 ## Usage
-Used to create and easily mantain README pages.
+The usage of our application allows users to really keep track of the exercises and cardio they are doing all in one place. Instead of having to write it down in your notes let us keep track of it for you.
 ## License
-![badge](https://img.shields.io/badge/license-GPL-blue)
-[GPL](https://opensource.org/licenses/gpl-license)
+
+undefined
 ## Credits
-No Credits Given
+https://github.com/Colon182 , https://github.com/jwilliams25400 .
 ## Tests
 No Test Given
 ## Questions
