@@ -1,6 +1,6 @@
-# KeepItMoving
+# Tech Blog
 ## Description
-This is an exercise tracker that helps you keep up with your exercise routines in a simple and easy way. With our application it allows you to add exercises and keep track of the weight you have been lifting.
+This project allows for you to create posts and comment on posts, allowing you to delete them and add them as you want.
 
 ## Table of Contents (Optional)
 - [Installation](#installation)
@@ -8,14 +8,14 @@ This is an exercise tracker that helps you keep up with your exercise routines i
 - [Credits](#credits)
 - [License](#license)
 ## Installation
-The way to use our application on your home pc is the commands npm init -y, npm i and then npm start.
+The installation for this project is npm init -y, update the .env file with your settings and then npm start or use the heroku link provided at the bottom of this README.
 ## Usage
-The usage of our application allows users to really keep track of the exercises and cardio they are doing all in one place. Instead of having to write it down in your notes let us keep track of it for you.
+This app allows you to keep track of your own posts and make comments so that you dont forget about things.
 ## License
 
 undefined
 ## Credits
-https://github.com/Colon182 , https://github.com/jwilliams25400 .
+No Credits Given
 ## Tests
 No Test Given
 ## Questions
