@@ -1,6 +1,6 @@
-# Tech Blog
+# ECommerce
 ## Description
-This project allows for you to create posts and comment on posts, allowing you to delete them and add them as you want.
+This project is a one of an ECommerce backend. Through this project you can learn exactly how MySQL and Sequilize talk to one another and how the databases are reached and data is shown using Insomnia.
 
 ## Table of Contents (Optional)
 - [Installation](#installation)
@@ -8,9 +8,9 @@ This project allows for you to create posts and comment on posts, allowing you t
 - [Credits](#credits)
 - [License](#license)
 ## Installation
-The installation for this project is npm init -y, update the .env file with your settings and then npm start or use the heroku link provided at the bottom of this README.
+First you want to npm install and then just run a npm start to get the application up and running on localhost:3001. Then using insomnia follow the routing so you can see datadisplayed from the database.
 ## Usage
-This app allows you to keep track of your own posts and make comments so that you dont forget about things.
+To allow users to really understand how the backend works with regards to data retrival and data display.
 ## License
 
 undefined
