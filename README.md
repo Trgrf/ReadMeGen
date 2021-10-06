@@ -1,6 +1,6 @@
-# ECommerce
+# React Portfolio
 ## Description
-This project is a one of an ECommerce backend. Through this project you can learn exactly how MySQL and Sequilize talk to one another and how the databases are reached and data is shown using Insomnia.
+This project is my Portfolio page where you will find all the information you will need about me. Within this project you will find an AboutMe page explaining some more information about myself. My Portfolio page where you will find all my work from previous projects to new ones as I update it. A page with my contact information as well as a way to email me. Finally the last page will display my resume.
 
 ## Table of Contents (Optional)
 - [Installation](#installation)
@@ -8,9 +8,9 @@ This project is a one of an ECommerce backend. Through this project you can lear
 - [Credits](#credits)
 - [License](#license)
 ## Installation
-First you want to npm install and then just run a npm start to get the application up and running on localhost:3001. Then using insomnia follow the routing so you can see datadisplayed from the database.
+Simply npm i and then npm start for the server to run my portfolio on localhost:3000 or follow the delpoyed link at the end of this README.
 ## Usage
-To allow users to really understand how the backend works with regards to data retrival and data display.
+So indiviuals and employers can have a better grasp of my skill set as well as me as a person.
 ## License
 
 undefined
