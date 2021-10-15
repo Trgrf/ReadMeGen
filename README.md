@@ -1,6 +1,6 @@
-# React Portfolio
+# Redux Store
 ## Description
-This project is my Portfolio page where you will find all the information you will need about me. Within this project you will find an AboutMe page explaining some more information about myself. My Portfolio page where you will find all my work from previous projects to new ones as I update it. A page with my contact information as well as a way to email me. Finally the last page will display my resume.
+This is an eCommerce application that allows you to buy items and checkout after making a profile.
 
 ## Table of Contents (Optional)
 - [Installation](#installation)
@@ -8,9 +8,9 @@ This project is my Portfolio page where you will find all the information you wi
 - [Credits](#credits)
 - [License](#license)
 ## Installation
-Simply npm i and then npm start for the server to run my portfolio on localhost:3000 or follow the delpoyed link at the end of this README.
+npm install is needed followed by an npm run seed and npm run develop.
 ## Usage
-So indiviuals and employers can have a better grasp of my skill set as well as me as a person.
+This application allows users to buy products online and purchase them using a stripe feature.
 ## License
 
 undefined
